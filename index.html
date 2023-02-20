@@ -1,118 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- META -->
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="#">
-    <meta name="description" content="#">
-    <meta name="referrer" content="unsafe-url">
-    <meta name="robots" content="index, follow">
-    <!-- SPEED -->
-    <link rel="preconnect" href="https://res.cloudinary.com">
-    <link rel="dns-prefetch" href="https://res.cloudinary.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <!-- LINK -->
-    <link rel="me" href="#">
-    <link rel="canonical" href="#">
-    <link rel="icon" type="image/png" href="#" sizes="48x48">
-    <!-- PERFORMANCE -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-    <link rel="preload" as="style" href="style.css">
-    <link rel="stylesheet" href="style.css">
-    <!-- TITLE -->
-    <title>Line: Free Landing Page Template from Uisual</title>
-  </head>
-  <body>
-    <header role="banner" class="ui-section-header">
-      <div class="ui-layout-container">
-        <div class="ui-section-header__layout ui-layout-flex">
-          <!-- LOGO -->
-          <a href="#" role="link" aria-label="#">
-            <svg viewBox="0 0 18 18" height="18" width="18" role="img" aria-label="#">
-              <path fill="#353535" d="M0 0h4.5v9a4.5 4.5 0 109 0V6H18v3A9 9 0 110 9V0zm18 4.5V0h-4.5v4.5H18z"/>
-            </svg>
-          </a>
-          <!-- MENU -->
-          <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-small ui-component-button-primary">Add to Chrome</a>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Chelsea Green</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
+            <li><a class="uk-button-text uk-text-capitalize" href="mailto:greenchelc@gmail.com" uk-scroll>Contact</a></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Navigation Bar Ends  -->
+
+<!-- Navigation Bar Mobile -->
+<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    
+    <div class="uk-navbar-left">
+        <a href="" class="uk-navbar-item uk-logo uk-light">Chelsea Green</a>
+    </div>
+    <div class="uk-navbar-right">
+
+        <ul class="uk-navbar-nav uk-light">
+            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+
+        </ul>
+
+    </div>
+</nav>
+<!-- Change This -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
+            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
+            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
+            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
+
+        </ul>
+
+
+
+
+    </div>
+</div>
+
+<!-- Navigation Bar Mobile Ends -->
+<!-- Home -->
+<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Chelsea Green, an engineering manager and full stack software engineer.</h1>
+    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
+</section>
+
+<!-- Home Ends -->
+<br>
+
+
+<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
+
+<!-- About Me -->
+<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
+<!-- Change here to ur paragraph -->
+<p class="uk-margin-xlarge-left uk-margin-xlarge-right">I've been working in tech for over 8 years. I focus on fullstack JavaScript development, but I have experience in a wide variety of tools and languages.</p>
+<a href="https://github.com/chelseagreen/" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/chegreen/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
+
+<!-- About Me Ends -->
+
+
+
+
+</section>
+
+<!-- Projects Section -->
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
+<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
+<p class="uk-margin-xlarge-left">Projects that I've been working on</p>
+
+<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+    <!-- Change all of this to ur projects -->
+    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+        <h4>Dogs</h4>
+        <p>Dogs on a log.</p>
+        <a class="uk-button-text uk-text-decoration-none" href="">
+            <span uk-icon="icon: link">
+            </span> Website Link </a>
         </div>
-      </div>
-    </header>
-    <main role="main">
-      <section class="ui-section-hero">
-        <div class="ui-layout-container">
-          <!-- COPYWRITING -->
-          <div class="ui-layout-column-6 ui-layout-column-center">
-            <h1>Design better.</h1>
-            <p class="ui-text-intro">Lorem ipsum dolor sit amet, consectetur lit, enimad eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi.</p>
-            <!-- CTA -->
-            <div class="ui-component-cta ui-layout-flex">
-              <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Add to Chrome &mdash; It&rsquo;s Free</a>
-              <p class="ui-text-note"><small>Firefox and Safari soon.</small></p>
-            </div>
-          </div>
-          <!-- IMAGE -->
-          <img src="https://res.cloudinary.com/uisual/image/upload/assets/devices/ipad.png" loading="lazy" alt="#" class="ui-section-hero--image">
-        </div>
-      </section>
-      <section class="ui-section-feature">
-        <div class="ui-layout-container">
-          <h2>Nice Features</h2>
-          <p class="ui-text-intro">Lorem ipsum dolor sit amet.</p>
-          <!-- FEATURE -->
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-3">
-            <div class="ui-component-card ui-layout-column-4">
-              <img src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png" loading="lazy" alt="#" class="ui-component-card--image">
-              <h4 class="ui-component-card--title">Lorem ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet sed eiusmod tempor incididunt.</p>
-            </div>
-            <div class="ui-component-card ui-layout-column-4">
-              <img src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png" loading="lazy" alt="#" class="ui-component-card--image">
-              <h4 class="ui-component-card--title">Lorem ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet sed eiusmod tempor incididunt.</p>
-            </div>
-            <div class="ui-component-card ui-layout-column-4">
-              <img src="https://res.cloudinary.com/uisual/image/upload/assets/graphics/chat.png" loading="lazy" alt="#" class="ui-component-card--image">
-              <h4 class="ui-component-card--title">Lorem ipsum dolor.</h4>
-              <p>Lorem ipsum dolor sit amet sed eiusmod tempor incididunt.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="ui-section-close">
-        <div class="ui-layout-container">
-          <div class="ui-layout-column-6 ui-layout-column-center">
-            <!-- LOGO -->
-            <svg viewBox="0 0 48 48" height="48" width="48" class="ui-section-close--logo">
-              <rect fill="#353535" height="48" width="48" rx="8"/>
-              <path fill="#FFF" d="M12 13h6v12a6 6 0 0012 0v-4h6v4c0 6.627-5.373 12-12 12s-12-5.373-12-12V13zm24 6v-6h-6v6h6z"/>
-            </svg>
-            <!-- COPYWRITING -->
-            <h2>Improve your work.</h2>
-            <p class="ui-text-intro">Lorem ipsum dolor sit amet consectetur.</p>
-            <!-- CTA -->
-            <div class="ui-component-cta ui-layout-flex">
-              <a href="#" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Add to Chrome &mdash; It&rsquo;s Free</a>
-              <p class="ui-text-note"><small>Firefox and Safari soon.</small></p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer role="contentinfo" class="ui-section-footer">
-      <div class="ui-layout-container">
-        <div class="ui-section-footer__layout ui-layout-flex">
-          <!-- COPYRIGHT -->
-          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; 0000 Uisual</small></p>
-          <!-- MENU -->
-          <a href="#" role="link" aria-label="#" class="ui-text-note"><small>Features</small></a>
-          <a href="#" role="link" aria-label="#" class="ui-text-note"><small>Help</small></a>
-          <a href="#" role="link" aria-label="#" class="ui-text-note"><small>Terms</small></a>
-        </div>
-      </div>
-    </footer>
-  </body>
+        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
+            <h4>Cats</h4>
+            <p>Cat in the hat</p>
+            <a class="uk-button-text uk-text-decoration-none" href="">
+                <span uk-icon="icon: link">
+                </span> Website Link </a>
+            </div></div>
+
+
+
+    <br>
+
+
+</section>
+<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
+</div>
+<!-- Projects Section Ends -->
+    
+</body>
 </html>

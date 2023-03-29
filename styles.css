@@ -220,7 +220,6 @@ footer p {
     margin-bottom: 0;
 }
 
-/* Add this to your existing CSS */
 .hamburger-menu {
     display: none;
     flex-direction: column;

@@ -2,127 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/uikit.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/uikit.js"></script>
-    <script src="js/uikit-icons.js"></script>
-
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Chelsea Green</title>
 </head>
 <body>
-<!-- Navigation Bar -->
-    <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
-    <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">Chelsea Green</a>
-    </div>
-    <div class="uk-navbar-right">
-
-        <ul class="uk-navbar-nav uk-light">
-            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#projects" uk-scroll>Projects</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="mailto:greenchelc@gmail.com" uk-scroll>Contact</a></li>
-
+<header>
+    <h1>Chelsea Green</h1>
+    <nav>
+        <ul>
+            <li><a href="#about-me" class="nav-link" data-target="about-me">About Me</a></li>
+            <li><a href="#experience" class="nav-link" data-target="experience">Experience</a></li>
+            <li><a href="#resources" class="nav-link" data-target="resources">Resources</a></li>
+            <li><a href="#contact-info" class="nav-link" data-target="contact-info">Contact</a></li>
         </ul>
+    </nav>
+</header>
+<main>
+    <section id="about-me" class="section active">
+        <img src="img.png">
+        <h2 class="center">Chelsea Green</h2>
+        <h5 class="center">Engineering Leader</h5>
+        <br>
+        <p>
+            I’m am experienced engineering leader in the fintech and software consulting space. I excel at building high-performing teams and delivering exceptional software quickly to surpass both stakeholder and customer expectations. A strong advocate for collaboration and fostering meaningful relationships, I work closely with cross-functional teams and stakeholders to co-create a vision of success and achieve it together.
+            <br><br>
+            I strive to cultivate an atmosphere of fun and collaboration within my teams, ensuring a harmonious work environment. One of my specialties is growing and scaling teams, ensuring they are well-equipped to face the ever-evolving challenges of the software industry. I am passionate about helping team members reach their full potential while delivering outstanding results.
+            <br><br>
+            Before entering the world of software engineering, I pursued chemistry and worked in scientific research. Over the past 8+ years, I've thrived as a full-time software engineer and manager. As a true polyglot, I have a knack for quickly adapting to new technologies and maximizing their potential.
+            <br><br>
+            I’m based out of Austin, TX. I’d love the opportunity to connect!
+        </p>
+    </section>
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <ul class="experience-list">
+            <li>
+                <h3>Aspiration</h3>
+                <p>Engineering Manager ▪ 2022 - Present</p>
+                <ul>
+                    <li>Manage two teams of full-stack engineers responsible for maintaining a complex legacy banking system in addition to scoping and developing new products.</li>
+                    <li>Spearheaded a multi team initiative to automate business development workflows, successfully launching an MVP in under one month.</li>
+                    <li>Proposed and led the organization-wide implementation of a new authentication scheme to address security and compliance concerns.</li>
+                    <li>Implemented practices to accelerate software delivery, including optimizing CI/CD workflows.</li>
+                </ul>
+            </li>
 
-    </div>
-</nav>
-<!-- Navigation Bar Ends  -->
+            <li>
+                <h3>Ribbon Home</h3>
+                <p>Engineering Manager ▪ 2022</p>
+                <ul>
+                    <li>Grew and managed a team of engineers responsible for building and delivering the company’s financial products.</li>
+                    <li>Established team roadmap by aligning with overarching organizational goals and customer impact.</li>
+                </ul>
+            </li>
 
-<!-- Navigation Bar Mobile -->
-<nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-    
-    <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">Chelsea Green</a>
-    </div>
-    <div class="uk-navbar-right">
+            <li>
+                <h3>7Factor Software</h3>
+                <p>Engineering Manager ▪ 2021 - 2022</p>
+                <p>Staff Software Engineer ▪ 2019 - 2021</p>
+                <p>Software Engineer ▪ 2018 - 2019</p>
+                <ul>
+                    <li>Successfully scaled the company from 5 to 60+ software engineers, playing a pivotal role in building a profitable technical professional services business.</li>
+                    <li>Owned and expanded multiple client accounts, forging long-lasting partnerships by delivering value to their business in the form of product as well as process transformation.</li>
+                    <li>Managed multiple engineering teams, focusing on coaching, professional development, and career growth for team members.</li>
+                    <li>Managed the end-to-end development process for both client projects and in-house products, collaborating with cross-functional teams to define success criteria, set goals, and establish metrics.</li>
+                    <li>Ensured consistent software delivery by emphasizing testing and code maintainability, leading to improved product quality and customer satisfaction.</li>
+                    <li>Planned and executed organizational growth strategies, including defining and implementing new roles to accommodate rapid expansion.</li>
+                </ul>
+            </li>
 
-        <ul class="uk-navbar-nav uk-light">
-            <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
+            <li>
+                <h3>Client Command</h3>
+                <p>Software Engineer ▪ 2017 - 2018</p>
+                <ul>
+                    <li>Built, deployed, and maintained all aspects of an Angular application.</li>
+                    <li>Led the Agile development process as a team scrum master.</li>
+                </ul>
+            </li>
 
+            <li>
+                <h3>Greater Sum</h3>
+                <p>Software Developer ▪ 2016 - 2017</p>
+                <ul>
+                    <li>Built applications using NodeJS, Angular, Typescript, and HTML/CSS.</li>
+                    <li>Led software workshops about TDD and refactoring fundamentals.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>IdeaBuilder</h3>
+                <p>iOS Developer ▪ 2016</p>
+                <ul>
+                    <li>Built prototype / MVP iOS applications for clients under tight deadlines.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>GigLink</h3>
+                <p>Software Developer ▪ 2015</p>
+                <ul>
+                    <li>Built out features of a social networking application in Ruby on Rails.</li>
+                </ul>
+            </li>
         </ul>
-
-    </div>
-</nav>
-<!-- Change This -->
-<div id="offcanvas-nav" uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-
-        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
-            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
-            <li class="uk-active"><a href="#projects" uk-scroll>Projects</a></li>
-            <li class="uk-active"><a href="mailto:">Contact</a></li> <!--- change to ur email-->
-
+    </section>
+    <section id="resources" class="section">
+        <h2>Resources</h2><br>
+        <h3>My Reading List</h3>
+        <ul>
+            <li>
+                <a href="https://www.amazon.com/Elegant-Puzzle-Systems-Engineering-Management/dp/1732265186/ref=sr_1_1?hvadid=499323788064&hvdev=c&hvlocphy=9031985&hvnetw=g&hvqmt=e&hvrand=4944789899420217073&hvtargid=kwd-1184214663779&hydadcr=8320_9904420&keywords=an+elegant+puzzle+by+will+larson&qid=1680122788&sr=8-1" target="_blank">An Elegant Puzzle</a> by Will Larson
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Radical-Candor-Revised-Kim-Scott/dp/1250258405/ref=sr_1_1?hvadid=583789190055&hvdev=c&hvlocphy=9031985&hvnetw=g&hvqmt=e&hvrand=14392730105990775636&hvtargid=kwd-384172165119&hydadcr=21904_10171077&keywords=radical+candor+paperback&qid=1680122846&s=books&sr=1-1" target="_blank">Radical Candor</a> by Kim Scott
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=sr_1_1?crid=14F9Y7YDZO8L6&keywords=the+manager%27s+path&qid=1680123637&s=books&sprefix=the+manager%27s+path%2Cstripbooks%2C180&sr=1-1" target="_blank">The Manager's Path</a> by Camille Fournier
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073/ref=sr_1_1?crid=3T0TORKTJFXZV&keywords=the+clean+coder&qid=1680123967&s=books&sprefix=the+clean+coder%2Cstripbooks%2C205&sr=1-1" target="_blank">The Clean Coder</a> by Robert C. Martin
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X/ref=sr_1_1?crid=2YH7V59O8WJ01&keywords=the+pragmatic+programmer&qid=1680124024&s=books&sprefix=the+pragmatic+programmer%2Cstripbooks%2C196&sr=1-1" target="_blank">The Pragmatic Programmer</a> by Andrew Hunt and David Thomas
+            </li>
         </ul>
-
-
-
-
-    </div>
-</div>
-
-<!-- Navigation Bar Mobile Ends -->
-<!-- Home -->
-<section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-    <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">I'm Chelsea Green, an engineering manager and full stack software engineer.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
-</section>
-
-<!-- Home Ends -->
-<br>
-
-
-<hr class="uk-margin-xlarge-top uk-margin-xlarge-left uk-margin-xlarge-right">
-
-<!-- About Me -->
-<section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
-<p class="uk-margin-xlarge-left uk-margin-xlarge-right">I've been working in tech for over 8 years. I focus on fullstack JavaScript development, but I have experience in a wide variety of tools and languages.</p>
-<a href="https://github.com/chelseagreen/" class="uk-margin-xlarge-left uk-light uk-button-text" uk-icon="github"></a> &nbsp;<a href="https://www.linkedin.com/in/chegreen/" class=" uk-light uk-button-text" uk-icon="linkedin"></a>
-
-<!-- About Me Ends -->
-
-
-
-
-</section>
-
-<!-- Projects Section -->
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-<section id="projects" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Projects</h3>
-<p class="uk-margin-xlarge-left">Projects that I've been working on</p>
-
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur projects -->
-    <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-        <h4>Dogs</h4>
-        <p>Dogs on a log.</p>
-        <a class="uk-button-text uk-text-decoration-none" href="">
-            <span uk-icon="icon: link">
-            </span> Website Link </a>
+        <br>
+        <h3>Podcasts and Articles</h3>
+        <ul>
+            <li>
+                <a href="https://open.spotify.com/show/3NxjyIsuxeDMQtisDqBy7D" target="_blank">The Engineering Enablement Podcast</a>
+            </li>
+            <li>
+                <a href="https://sfelc.com/podcast" target="_blank">The Engineering Leadership Podcast</a> by SFELC
+            </li>
+            <li>
+                <a href="https://www.supermanagers.fm/" target="_blank">Supermanagers Podcast</a> by Fellow.app
+            </li>
+            <li>
+                <a href="https://alearningaday.blog/2015/03/11/compounding-learning/" target="_blank">The Power of Compounding Learning</a> by Rohan Rajiv
+            </li>
+        </ul>
+    </section>
+    <section id="contact-info" class="section center">
+        <h2>Contact</h2><br>
+        <div class="contact-details">
+            <div>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+17072050150">+1 (707) 205-0150</a>
+            </div>
+            <div>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:greenchelc@gmail.com">greenchelc@gmail.com</a>
+            </div>
         </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>Cats</h4>
-            <p>Cat in the hat</p>
-            <a class="uk-button-text uk-text-decoration-none" href="">
-                <span uk-icon="icon: link">
-                </span> Website Link </a>
-            </div></div>
-
-
-
-    <br>
-
-
-</section>
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
-<!-- Projects Section Ends -->
-    
+    </section>
+</main>
+<footer>
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/chegreen" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/chelseagreen" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+    <p>© 2023 Chelsea Green. All rights reserved.</p>
+</footer>
+<script src="scripts.js"></script>
 </body>
 </html>

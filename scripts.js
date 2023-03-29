@@ -34,4 +34,18 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+
+  const navToggle = document.getElementById("nav-toggle");
+  const navMenu = document.getElementById("nav-menu");
+
+  navToggle.addEventListener("click", function () {
+    navMenu.classList.toggle("show");
+  });
+
+  // Close the menu when a link is clicked
+  navMenu.addEventListener("click", function (event) {
+    if (event.target.tagName === "A") {
+      navMenu.classList.remove("show");
+    }
+  });
 });
